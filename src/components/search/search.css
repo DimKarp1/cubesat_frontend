@@ -1,0 +1,32 @@
+.search {
+    width: 420px;
+    height: 40px;
+    border-radius: 0;
+    border: none;
+}
+.custom {
+    height: 120px;
+    background-color: var(--containerHeader);
+}
+
+@media (max-width: 576px) {
+    .search {
+        width: 200px;
+    }
+
+    .custom-button-shop {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .search {
+        width: 100px;
+    }
+
+    .custom-button-shop {
+        width: 40px;
+        height: 40px;
+    }
+}
