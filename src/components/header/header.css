@@ -1,0 +1,50 @@
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+    background-color: white;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-image {
+    width: 100px;
+    height: auto;
+    color: var(--buttonColor);
+}
+
+.full-screen-menu .offcanvas {
+    width: 100% !important; /* Перекрыть всю ширину */
+    height: 100% !important; /* Перекрыть всю высоту */
+    background-color: #fff; /* Фон меню */
+}
+
+.full-screen-menu .offcanvas-header {
+    border-bottom: 1px solid #ddd;
+}
+
+.full-screen-menu .menu-item {
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+@media (max-width: 992px) {
+    .menu-item {
+        font-size: 16px; /* Уменьшаем текст для мобильных */
+    }
+}
