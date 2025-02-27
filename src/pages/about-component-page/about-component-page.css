@@ -1,0 +1,62 @@
+.about-text {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+@media (max-width: 576px) {
+    .row {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .col-md-6 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .price-badge {
+        display: inline-block;
+        background-color: var(--textColor);
+        border-radius: 50px;
+        padding: 6px 12px;
+    }
+
+    .row {
+        flex-direction: row;
+        gap: 24px;
+    }
+}
+
+.components-attributes {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.component-attribute {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #fff;
+
+}
+
+.component-attribute:last-child {
+    border-bottom: none;
+}
+
+.attribute-name {
+    font-weight: 500;
+    color: #333;
+}
+
+.attribute-value {
+    font-weight: 400;
+    color: #666;
+}
+
+
