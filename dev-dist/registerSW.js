@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/cubesat/dev-sw.js?dev-sw', { scope: '/cubesat/', type: 'classic' })

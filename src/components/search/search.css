@@ -1,0 +1,63 @@
+.search {
+    width: 420px;
+    height: 40px;
+    border-radius: 0;
+    border: none;
+}
+.custom {
+    height: 120px;
+    background-color: var(--containerHeader);
+}
+
+@media (max-width: 576px) {
+    .search {
+        width: 200px;
+    }
+
+    .custom-button-shop {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .search {
+        width: 100px;
+    }
+
+    .custom-button-shop {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wrapper {
+    display: grid;
+    position: relative; /* Используем для позиционирования бейджа */
+}
+
+.custom-button-shop {
+    display: block; /* Кнопка остается основным элементом */
+}
+
+.badge {
+    background-color: lightgray;
+    color: var(--containerHeader);
+    border-radius: 50%;
+    min-width: 24px; /* Минимальный размер для корректного отображения текста */
+    height: 24px;
+    padding: 2px; /* Добавляем внутренние отступы */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap; /* Предотвращаем перенос текста */
+}
+

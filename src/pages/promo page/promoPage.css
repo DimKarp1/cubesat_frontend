@@ -1,0 +1,33 @@
+.promo-page {
+    min-height: 100vh;
+    background-color: white;
+    color: white;
+    padding: 2rem;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta-button {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.additional-text {
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
