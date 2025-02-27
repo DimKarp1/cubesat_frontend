@@ -1,0 +1,32 @@
+.about-text {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+@media (max-width: 576px) {
+    .row {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .col-md-6 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .price-badge {
+        display: inline-block;
+        background-color: var(--textColor);
+        border-radius: 50px;
+        padding: 6px 12px;
+    }
+
+    .row {
+        flex-direction: row;
+        gap: 24px;
+    }
+}
+
+
