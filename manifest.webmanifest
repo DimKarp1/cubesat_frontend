@@ -1,0 +1,1 @@
+{"name":"CubeSat","short_name":"CubeSat","start_url":"/cubesat/","display":"standalone","background_color":"#ffffff","lang":"en","scope":"/cubesat/","theme_color":"#65A8A4","orientation":"portrait-primary","icons":[{"src":"/cubesat/CubeSat_icon_manifest.png","type":"image/png","sizes":"512x512"}],"screenshots":[{"src":"/cubesat/img.png","sizes":"389x755","type":"image/png"}]}
